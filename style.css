@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+}
+
+body{
+  width: 100%;
+}
+
+/* menu + logo */
+
+nav {
+  height: 70px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  box-shadow: 0px 17px 19px #e4e0e052;
+}
+
+
+/* logo */
+
+.logo{
+  margin-left: 10px;
+}
+
+.logo a img {
+  width: 66px;
+  height: 64px;
+}
+
+
+/* menu */
+
+a {
+  text-decoration: none;
+  color: #716e6f;
+}
+
+.navbar {
+  margin-left: 100px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin: 100px;
+}
+
+
+/* slide photo */
+
+section{
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  background: #dedede;
+}
+
+
+/* photo */
+
+.content-photo{
+  margin-top: 10%;
+  width: 50%;
+  height: 500px;
+  margin-left: calc((100% - 50%) * 0.5);
+  overflow: hidden;
+  display: inline-block;
+  position: absolute;
+}
+
+ .content-photo .slide img{
+  width: 100%;
+  height: 500px;
+}
+
+
+/* buttons */
+
+.button1, .button2{
+  width: 40px;
+  height: 40px;
+  margin-top: 370px;
+  color: grey;
+}
+
+.button1:hover, .button2:hover{
+  transform: scale(2);
+}
+
+.button1{
+  float: left;
+  margin-left: 300px;
+}
+
+.button2{
+  float: right;
+  margin-right: 300px;
+}
