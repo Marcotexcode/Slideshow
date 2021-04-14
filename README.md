@@ -1,1 +1,1 @@
-# Slideshow: https://marcotexcode.github.io/Slideshow/
+link: https://marcotexcode.github.io/Slideshow/
